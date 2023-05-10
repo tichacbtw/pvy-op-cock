@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+background-image: url(cockas.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+color: #ffffff;
+font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat', sans-serif;
+width: 100;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+width: 650;
+}
+
+.box {
+width: 50px;
+height: 50px;
+color: white;
+}
+
+.logo {
+background-color: rgba(0, 0, 0, 0);
+}
+
+nav {
+position: sticky;
+top: 0px;
+left: 0px;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 0, 0);
+font-size: 50px;
+display: flex;
+justify-content: space-around;
+max-width: 1000px;
+margin: auto;
+}
+
+nav li {
+display: inline-block;
+}
+
+body,
+ul {
+margin: 0;
+padding: 0;
+}
+
+ul {
+background-color: rgba(0, 0, 0, 0);
+}
+
+li {
+display: inline-block;
+padding-left: 10px;
+}
+
+li > a {
+text-decoration: none;
+font-size: 20px;
+color: aliceblue;
+}
+
+li > a:hover {
+color: rgb(183, 183, 183);
+text-decoration: underline;
+}
+
+.gallery-area img {
+margin-bottom: 30px;
+width: 100%;
+}
+
+.single-gallery-image {
+margin-top: 30px;
+background-repeat: no-repeat !important;
+background-position: center center !important;
+background-size: cover !important;
+height: 200px;
+}
+
+.section-gap {
+padding: 120px 0;
+}
+
+main {
+height: 200;
+max-width: 1000px;
+}
+
+section {
+display: flex;
+flex: 1 1 auto;
+}
+
+img {
+max-width: 100%;
+float: left;
+width: 20%;
+padding: 10px;
+size: auto;
+}
+
+.container {
+display: flex;
+}
+
+nav {
+background-color: rgba(0, 0, 0, 0);
+padding: 6px;
+}
+
+.navigace {
+display: flex;
+justify-content: space-between;
+}
+
+.menu {
+background-color: rgb(99, 99, 99);
+padding: 6px;
+border-radius: 3px;
+cursor: pointer;
+}
+
+.menu-polozky {
+list-style-type: none;
+}
+
+main {
+padding: 6px;
+}
+
+.skryte {
+display: none;
+}
+
+@media only screen and (min-width: 750px) {
+nav {
+display: flex;
+justify-content: space-between;
+}
+
+.menu {
+display: none;
+}
+
+.menu-polozky {
+display: block;
+margin: 0;
+padding: 6px;
+}
+
+.menu-polozky li {
+display: inline-block;
+padding-left: 12px;
+}
+}
+
+.galerie {
+display: flex;
+gap: 6px;
+}
+
+.obrazek {
+  flex: 1 0 120px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+
+#o1 {
+  background-image: url(headeyes.png);
+}
+
+#o2 {
+  background-image: url(schovatbolest.jpg);
+}
+
+#o3 {
+  background-image: url(ds.jpg);
+  background-position-y: 10%;
+}
+
+#o4 {
+  background-image: url(Escape_from_Tarkov.jpg);
+  background-position-y: 16%;
+}
+
+#o5 {
+  background-image: url(cont.png);
+}
+
+form {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+}
+
+form > input, form > button {
+  padding: 6px;
+  border: 4px solid rgb(54, 54, 54);
+  font-size: 32px;
+}
+
+form > input[type=text] {
+  flex: 0 1 100%;
+  color: rgb(0, 0, 0);
+  border-radius: 12px 0 0 12px;
+}
+
+form > input[type=text]:focus {
+  background-color: lavender;
+  outline: none;
+}
+
+form > button {
+  flex: 0 0 80px;
+  background-color: rgb(37, 36, 37);
+  color: white;
+  border-radius: 0 12px 12px 0;
+  cursor: pointer;
+}
+
+footer
+{
+  text-align: center;
+}
+
